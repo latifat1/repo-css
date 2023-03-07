@@ -1,0 +1,27 @@
+/* class */
+.title{
+    color : green;
+}
+
+/* id */
+#para{
+    font-size: 3rem; /* 1rem = 16px */
+    color: red;
+}
+
+/* type */
+li{
+    display: inline;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 10px dashed red;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  
+body{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+   background-color:  hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    
+    height: 500px;
+    width: 600px;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.card-left{
+    width: 50%;
+    background-image: url('images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-right{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-right: 2rem;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.coucou{
+    padding-top: 55px;
+}
+
+.tifat{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 30px;
+    
+}
+   
+        
+
+.maze{
+        background-color: darkgreen;
+        display: flex;
+        justify-content: center;
+        margin-top: 1   àpx;
+        border-radius: 0.5rem;
+        width: 15rem;
+        height: 3rem;
+        font-family: sans-serif;
+        padding-top: 0.5rem;
+        padding-right: 0.5rem;
+        color: blanchedalmond;
+        padding-left:   10px;
+        padding-top:15px;
+        
+        
+} 
+   
+p{
+    text-decoration: line-through;
+    padding-top: 10px;
+    
+}
+
+
+
+
+.tifat h1{
+    color: darkgreen;
+}
+
+.maze img{
+    padding-bottom: 10px;
+    padding-right: 15px;
+    
+}
+
+
+
+  
+
+
+
+
+
+
