@@ -9,7 +9,7 @@
 
   
 body{
-    font-family: 'Fraunces', serif;
+   
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -102,11 +102,15 @@ p{
 }
 
 
-
+.title{
+    font-family: 'Fraunces', serif;
+}
   
 
 
 
-
+.price{
+    font-family: 'Fraunces', serif;
+}
 
 
